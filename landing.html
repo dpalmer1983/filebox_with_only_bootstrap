@@ -44,58 +44,67 @@ border: thin green solid
 }
 </style> -->
 
-</head>
-<body>
-  <nav class="navbar navbar-default">
-    <div class="container-fluid">
-      <!-- Brand and toggle get grouped for better mobile display -->
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="#">Brand</a>
-      </div>
 
-      <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul class="nav navbar-nav">
-          <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
-          <li><a href="#">Link</a></li>
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-            <ul class="dropdown-menu">
-              <li><a href="#">Action</a></li>
-              <li><a href="#">Another action</a></li>
-              <li><a href="#">Something else here</a></li>
-              <li role="separator" class="divider"></li>
-              <li><a href="#">Separated link</a></li>
-              <li role="separator" class="divider"></li>
-              <li><a href="#">One more separated link</a></li>
-            </ul>
-          </li>
-        </ul>
-        <form class="navbar-form navbar-left">
-          <div class="form-group">
-            <input type="text" class="form-control" placeholder="Search">
+
+
+</head>
+
+
+
+
+
+<body>
+  <nav class="navbar navbar-default-fixed-top">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-10 col-lg-offset-1">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+
+            <a class="navbar-brand" href="#"><i class="fa fa-lg fa-fw fa-dropbox" aria-hidden="true"></i>           Filebox
+            </a>
           </div>
-          <button type="submit" class="btn btn-default">Submit</button>
-        </form>
-        <ul class="nav navbar-nav navbar-right">
-          <li><a href="#">Link</a></li>
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-            <ul class="dropdown-menu">
-              <li><a href="#">Action</a></li>
-              <li><a href="#">Another action</a></li>
-              <li><a href="#">Something else here</a></li>
-              <li role="separator" class="divider"></li>
-              <li><a href="#">Separated link</a></li>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+              <li>
+                <p class="navbar-btn">
+                  <a href="#" class="btn btn-link">
+                    Download the app
+                  </a>
+                </p>
+              </li>
+              <li>
+                <p class="navbar-btn">
+                  <a href="#" class="btn btn-link">
+                    Sign in
+                  </a>
+                </p>
+              </li>
+
+              <ul class="nav navbar-nav navbar-right">
+                <li>
+                  <p class="navbar-btn">
+                    <a href="#" class="btn btn-default">
+                      Try Filebox Business
+                    </a>
+                  </p>
+                </li>
+              </ul>
+
+
+
             </ul>
           </li>
         </ul>
+
       </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
   </nav>
@@ -103,12 +112,12 @@ border: thin green solid
 
   <div class="container">
     <div class="row">
-              <div class="col-md-offset-1 col-md-10">
+      <div class="col-md-offset-1 col-md-10">
         <img src="assets/images/hero.png">
       </div>
     </div>
     <div class="row">
-        <div class="row"><p></p></div>
+      <div class="row"><p></p></div>
       <div class="col-md-offset-1 col-md-4">
         <h2>
           Filebox works the way you do
@@ -136,7 +145,8 @@ border: thin green solid
           <div class="checkbox">
             <label>
               <input type="checkbox">
-              I agree to FileBox terms
+              I agree to
+              <a href="#">FileBox terms</a>
             </label>
           </div>
           <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
@@ -145,18 +155,9 @@ border: thin green solid
           </button>
         </button>
 
-        <div class="row">
-          <p></p>
-        </div>
-        <div class="row">
-          <p></p>
-        </div>
-        <div class="row">
-          <p></p>
-        </div>
-        <div class="row">
-          <p></p>
-        </div>
+
+        <hr style="border: none; height: 1px; color: powderblue; background: powderblue;">
+
 
         <button type="button" class="btn btn-primary btn-lg btn-block">
           <i class="fa fa-google" aria-hidden="true"></i>
@@ -191,8 +192,8 @@ border: thin green solid
         Save files on your computer, then access them on your phone from the road. Everything you keep in Filebox is synced automatically to all your devices.
       </p>
     </div>
-        <div class="col-md-offset-2 col-md-4">
-                <img src="assets/images/docs-anywhere.png">
+    <div class="col-md-offset-2 col-md-4">
+      <img src="assets/images/docs-anywhere.png">
     </div>
   </div>
   <div class="row">
@@ -238,7 +239,7 @@ border: thin green solid
     <div class="row"><p></p></div>
     <div class="row"><p></p></div>
     <div class="row"><p></p></div>
-        <div class="col-md-offset-1 col-md-4">
+    <div class="col-md-offset-1 col-md-4">
 
       <h2>
         Keep your photos safe
@@ -325,12 +326,19 @@ border: thin green solid
     <div class="row"><p></p></div>
     <div class="row"><p></p></div>
 
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-lg-offset-4">
+          <h2 class="text-center">
+            Get started now
+          </h2>
+        </div>
+      </div>
+    </div>
+
+
     <div class="col-md-offset-4 col-md-4">
-      <p class="text-center">
-        <h2>
-          Get started now
-        </h2>
-      </p>
+
       <form>
         <div class="form-group">
           <!-- <label for="exampleInputName2">Full Name</label> -->
@@ -346,8 +354,8 @@ border: thin green solid
         </div>
         <div class="checkbox">
           <label>
-            <input type="checkbox">
-            I agree to FileBox terms
+            I agree to
+            <a href="#">FileBox terms</a>
           </label>
         </div>
         <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
@@ -357,12 +365,9 @@ border: thin green solid
       </button>
 
 
-      <div class="row">
-      </div>
-      <div class="row"><p></p></div>
-      <div class="row"><p></p></div>
-      <div class="row"><p></p></div>
-      <div class="row"><p></p></div>
+      <div class="row"></div>
+      <hr style="border: none; height: .8px; color: powderblue; background: powderblue;">
+
 
       <button type="button" class="btn btn-primary btn-lg btn-block">
         <i class="fa fa-google" aria-hidden="true"></i>
